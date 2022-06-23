@@ -158,5 +158,3 @@ class ResetAPIView(APIView):
             'message': 'success'
         })
 
-
-
