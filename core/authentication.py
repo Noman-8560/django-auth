@@ -33,6 +33,8 @@ def decode_access_token(token):
         payload = jwt.decode(token, 'access_secret', algorithms='HS256')
 
         return payload['user_id']
+    
+    
     except:
         raise exceptions.AuthenticationFailed('Unuthenticated')
 
