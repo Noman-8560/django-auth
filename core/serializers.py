@@ -18,6 +18,3 @@ class UserSerializers(ModelSerializer):
             instance.save()
             return instance
 
-
-
-
