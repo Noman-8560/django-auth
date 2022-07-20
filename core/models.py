@@ -23,7 +23,3 @@ class UserToken(models.Model):
 class Reset(models.Model):
     email = models.CharField(max_length=255)
     token = models.CharField(max_length=255, unique=True)
-
-
-
-
