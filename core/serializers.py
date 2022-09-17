@@ -17,3 +17,6 @@ class UserSerializers(ModelSerializer):
             instance.set_password(password)
             instance.save()
             return instance
+
+        
+        
