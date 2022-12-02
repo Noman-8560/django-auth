@@ -11,8 +11,6 @@ from .authentication import create_access_token, JWTAuthentication, create_refre
 from .models import User, UserToken, Reset
 from .serializers import UserSerializers
 
-
-
 # For Registration
 class RegisterAPIView(APIView):
     def get(self, request):
