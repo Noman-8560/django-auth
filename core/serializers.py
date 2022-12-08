@@ -20,6 +20,4 @@ class UserSerializers(ModelSerializer):
 
         
         
-        
-        
-        
+     
