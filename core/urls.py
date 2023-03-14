@@ -11,3 +11,4 @@ urlpatterns = [
     path('forgot', ForgotAPIView.as_view()),
     path('reset', ResetAPIView.as_view()),
 ]
+
